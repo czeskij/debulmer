@@ -1,0 +1,19 @@
+{
+  "name": "debulmer",
+  "version": "1.0.0",
+  "description": "helper tool to remove Bulma from projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "debulmer": "./bin/debulmer.js",
+    "debulmer-summary": "./bin/debulmer-summary.js"
+  },
+  "preferGlobal": true,
+  "author": "Jakub Rajski",
+  "license": "ISC",
+  "dependencies": {
+    "recursive-readdir": "^2.2.2"
+  }
+}
